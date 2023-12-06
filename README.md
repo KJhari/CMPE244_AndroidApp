@@ -26,6 +26,7 @@ GSON: For handling JSON serialization and deserialization.
 Backend Server
 Set up a Uvicorn and FastAPI server on a Jetson Nano.
 Ensure the server is capable of receiving HTTP requests and controlling the motor based on these requests.
+*refer to the backend readme file to see how to setup
 
 ## Android App
 
