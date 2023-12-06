@@ -16,7 +16,7 @@ A Jetson Nano setup with Uvicorn and FastAPI, connected to a motor for controlli
 The app uses several libraries and frameworks:
 
 Android Jetpack Compose: Used for building the UI in a declarative way.
-Android Media3: For video playback functionality in the app.
+Android Media3 Exoplayer: For video playback functionality in the app.
 Volley: For making network requests to the backend server.
 AndroidX: Provides backward-compatible versions of Android framework APIs and additional libraries.
 GSON: For handling JSON serialization and deserialization.
@@ -59,5 +59,6 @@ If you encounter issues:
 Ensure the Jetson Nano server is running and accessible from your Android device.
 Check the IP address and port configurations.
 Ensure your Android device and Jetson Nano are on the same network if necessary.
-Contributing
+
+# Contributing
 Contributions to the project are welcome. Please follow standard git practices for contributing, such as fork the repo, create a feature branch, and submit pull requests.
